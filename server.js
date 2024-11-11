@@ -10,7 +10,7 @@ app.post("/send-email", async (req, res) => {
   try {
     const { name, phone, email, description } = req.body;
 
-    // Configure transporter
+    
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
@@ -19,7 +19,7 @@ app.post("/send-email", async (req, res) => {
       },
     });
 
-    // Email options
+  
     const mailOptions = {
       from: email,
       to: process.env.RECIPIENT_EMAIL,

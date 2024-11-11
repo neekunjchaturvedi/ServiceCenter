@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#repairbtn {
+  text-decoration: none;
+}
+#navlinks {
+  text-decoration: none;
+  color: black;
+}
+#logo {
+  text-decoration: none;
+}

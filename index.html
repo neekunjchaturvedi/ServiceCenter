@@ -51,7 +51,7 @@
           Reliable Doorstep Mobile Repair Services
         </h1>
         <p class="text-lg mb-8 w-1/2 text-center">
-          Quick and professional mobile repair service at your doorstep.At , We
+          Quick and professional mobile repair service at your doorstep. We
           Offer More than Fixes We Bring Devices to Life is your go-to place for
           fixing phones. We don't just patch things up; we make your mobiles
           work like new. Our team is great at solving all sorts of problems,
@@ -251,10 +251,12 @@
       <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
       <div class="bg-white p-8 shadow-lg rounded-lg md:w-1/2 xs:w-96 mx-auto">
         <form
-          action="http://localhost:3000/send-email"
+          action="https://api.web3forms.com/submit"
           method="POST"
           class="space-y-6 mx-auto"
         >
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+
           <!-- Name Field -->
           <div class="container">
             <label for="name" class="block text-lg font-medium mb-2"
